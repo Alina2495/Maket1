@@ -48,13 +48,12 @@ span:not(div.text span) {
 }
 .logo-first {
     background-color: burlywood;
-    width: 140px;
-    height: 120px;
+    width: 145px;
+    height: 155px;
     position: relative;
     left: 185px;
     top: -10px;
-    line-height: 3;
-
+    line-height: 3.5;
 }
 .icon {
     width: 25px;
@@ -90,11 +89,14 @@ span:not(.logo):not(.big) {
     font-weight: lighter;
     font-family: "Comic Sans MS", sans-serif;
 }
+.inline span {
+    margin-left: 10px;
+}
 .grid-container {
     margin-top: 0px;
     display: grid;
     grid-template-columns: auto 140px 140px 140px 140px 140px 140px auto;
-    grid-template-rows: 120px 120px 120px;
+    grid-template-rows: 140px 140px 140px;
 }
 .text {
     padding-right: 10px;
@@ -109,7 +111,7 @@ span:not(.logo):not(.big) {
     background: burlywood url('../img_for_maket1/about-us.png') no-repeat 50% 40%;
 }
 .div-text {
-    padding-top: 70px;
+    padding-top: 80px;
     text-align: center;
     font-family: "Fantasy", sans-serif;
 }.small {
